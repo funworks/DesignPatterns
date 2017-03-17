@@ -10,7 +10,7 @@ package com.creational.singleton;
  *   to get instance if the instance is already created
  *
  * Cons:
- * - It is not fool prood and guaranteed to work. For more information, read this
+ * - It is not guaranteed to work. For more information, read this
  *   http://www.javaworld.com/article/2074979/java-concurrency/double-checked-locking--clever--but-broken.html
  * - There is no way to fix DCL. So the best approach is either to use synchronization on getInstance method
  *   or to use eager loading or initializing instance on load method.
